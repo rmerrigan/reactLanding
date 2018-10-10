@@ -1,4 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
-.container{
-  background-image: url(../img/blueBricks.jpg);
+.container {
+  height: 100vh;
+  width: 100%;
+  padding-left: 1rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/greygeoshapes.jpg') no-repeat 0 0 / cover;
+}
+
+.textContainer {
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 2rem;
+}
+
+h1,
+h2 {
+  font-weight: 200;
+  margin: 0.4rem;
 }

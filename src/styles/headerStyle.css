@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
-@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree|Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 .topnavContainer {
   display: grid;
   position: fixed;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.5);
@@ -13,14 +12,13 @@
 }
 
 .topnavContainer a {
-  font-family: 'Bai Jamjuree', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   text-decoration: none;
-  font-size: 1.5rem;
   justify-content: center;
 }
 
 .topnavContainer a:hover {
-  background: rgb(97, 97, 97);
+  background: rgba(97, 97, 97, 0.5);
   transition: 0.5s;
   border-radius: 10px;
 }

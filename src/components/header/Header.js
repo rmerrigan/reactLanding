@@ -1,26 +1,26 @@
 import React from 'react';
-import headerStyle from '../../styles/headerStyle.css';
+import style from '../../styles/headerStyle.css';
 
 export default () => {
   return (
-    <div className={headerStyle.topnavContainer}>
+    <div className={style.topnavContainer}>
       <div>
-        <a className={headerStyle.home} href="#">
+        <a className={style.home} href="#">
           Home
         </a>
       </div>
       <div>
-        <a className={headerStyle.about} href="#">
+        <a className={style.about} href="#">
           About
         </a>
       </div>
       <div>
-        <a className={headerStyle.contact} href="#">
+        <a className={style.contact} href="#">
           Contact
         </a>
       </div>
       <div>
-        <a className={headerStyle.blog} href="#">
+        <a className={style.blog} href="#">
           Blog
         </a>
       </div>
